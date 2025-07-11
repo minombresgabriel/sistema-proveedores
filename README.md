@@ -1,6 +1,6 @@
-# 🏢 Sistema de Proveedores para Unicasa
+# 🏢 Sistema de Proveedores
 
-Aplicación web empresarial desarrollada para **Unicasa**, diseñada específicamente para que proveedores como **Coca-Cola** puedan consultar sus cuentas por pagar de manera segura, rápida y en tiempo real.
+Aplicación web empresarial desarrollada y diseñada específicamente para que proveedores como **Coca-Cola** puedan consultar sus cuentas por pagar de manera segura, rápida y en tiempo real.
 
 ---
 
