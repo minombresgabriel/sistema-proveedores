@@ -1,0 +1,39 @@
+
+
+Proveedor http://localhost:5075/api/Provedores/
+POST 
+
+{
+    "proveedorName": "Nuevo Proveedor",
+    "codigoProveedor": "0009999",
+    "idUser": 15,
+    "idCreatedBy": 1,
+    "dateCreated": "2023-10-05T00:00:00"
+}
+
+PUT
+
+{
+  "proveedorName": "Proveedor Actualizado",
+  "codigoProveedor": "0009999",
+  "idUser": 15,
+  "idCreatedBy": 1
+}
+
+
+USER http://localhost:5075/api/Users
+POST
+
+{
+  "usuarioName": "Juan Pérez",
+  "userEmail": "juan@example.com",
+  "userUsername": "juanperez",
+  "userPassword": "password123",
+  "userType": "PROVEEDOR",
+  "idRol": 1,
+  "idCreatedBy": 1
+}
+
+
+
+

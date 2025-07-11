@@ -1,0 +1,6 @@
+@UnicasaProveedoresAPI_HostAddress = http://localhost:5075
+
+GET {{UnicasaProveedoresAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
