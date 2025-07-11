@@ -22,7 +22,6 @@ Este sistema permite a los proveedores acceder a sus estados de cuenta, consulta
 
 ## 🏆 Logros Técnicos
 
-- ⚡ Procesa más de **500 solicitudes/día** con tiempos de respuesta promedio menores a **100ms**
 - 🌐 Desplegada con éxito en entornos **IIS**, accesible a proveedores reales
 - 🔐 Autenticación segura y consultas en tiempo real a la base de datos
 
