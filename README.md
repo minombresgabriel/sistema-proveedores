@@ -1,68 +1,69 @@
-# 🏢 Sistema de Proveedores
+# 🏢 Supplier System
 
-Aplicación web empresarial desarrollada y diseñada específicamente para que proveedores como **Coca-Cola** puedan consultar sus cuentas por pagar de manera segura, rápida y en tiempo real.
-
----
-
-## 📌 Descripción
-
-Este sistema permite a los proveedores acceder a sus estados de cuenta, consultar pagos pendientes y descargar reportes directamente desde la web. La aplicación está compuesta por un **backend en .NET Core**, un **frontend en React** y una base de datos **SQL Server**, todo desplegado en un servidor **IIS** interno de la empresa.
+Enterprise web application developed and designed specifically for suppliers such as **Coca-Cola** to consult their accounts payable securely, quickly and in real time.
 
 ---
 
-## 🚀 Tecnologías Utilizadas
+## 📌 Description.
 
-- ✅ **.NET Core** – API REST robusta
-- ✅ **React.js** – Interfaz rápida y dinámica
-- ✅ **SQL Server** – Base de datos relacional empresarial
-- ✅ **Bootstrap** – Diseño moderno y responsivo
-- ✅ **IIS** – Despliegue interno en servidor Windows
+This system allows suppliers to access their account statements, consult pending payments and download reports directly from the web. The application is composed of a **backend in .NET Core**, a **frontend in React** and a **SQL Server** database, all deployed on an **IIS** server internal to the company.
 
 ---
 
-## 🏆 Logros Técnicos
+## 🚀 Technologies Used.
 
-- 🌐 Desplegada con éxito en entornos **IIS**, accesible a proveedores reales
-- 🔐 Autenticación segura y consultas en tiempo real a la base de datos
+- ✅ **.NET Core** - Robust REST API
+- ✅ **React.js** - Fast and dynamic interface.
+- ✅ **SQL Server** - Enterprise relational database
+- ✅ **Bootstrap** - Modern and responsive design
+- **IIS** - Internal deployment on Windows server
 
 ---
 
-## 📂 Estructura del Proyecto
+## 🏆 Technical Achievements.
 
-sistema-proveedores/
+- 🌐 Successfully deployed in **IIS** environments, accessible to real providers.
+- 🔐 Secure authentication and real-time queries to the database.
+
+---
+
+## 📂 Project structure
+
+system-suppliers/
 ├── backend/ # API .NET Core
 │ ├── Controllers/
 │ ├── Models/
-│ └── ...
-├── frontend/ # Interfaz React
+│ └─── ...
+├── frontend/ # React interface
 │ ├── src/
-│ └── ...
-└── README.md
+│ └─── ...
+└─── README.md
 
 
 
 ---
 
-## ⚙️ Instrucciones de Uso (Local)
+## ⚙️ Instructions for Use (Local).
 
-### Requisitos
+### Requirements
 - Visual Studio / .NET SDK
 - Node.js
 - SQL Server
 
 ### 1. Backend (.NET Core)
-```bash
+````bash
 cd backend
-# Abrir con Visual Studio o compilar desde CLI
+# Open with Visual Studio or compile from CLI
 dotnet restore
 dotnet run
+
 
 ### 1. Frontend (REACT)
 cd frontend
 npm install
 npm run dev
 
-👨‍💻 Autor
-Gabriel Ramírez – @minombresgabriel
+👨‍💻 Author
+Gabriel Ramirez - @minombresgabriel
 
-Desarrollador Full Stack | Experto en soluciones empresariales .NET + React
+Full Stack Developer | Expert in enterprise solutions .NET + React
